@@ -1,0 +1,60 @@
+ h1{
+       top:120px;
+       left: 640px;
+       position: absolute;
+       text-decoration: underline;
+ }
+ h1:hover
+ {
+    background-color: black;
+    color: aqua;
+
+ }
+#calculator
+{
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 200px;
+        padding-right:20px;
+          top:200px;
+          left:600px;
+          position: absolute;
+}
+#calculator:hover
+{
+    background-color: wheat;
+    color: black;
+}
+#display
+{
+      margin:10px;
+      width:90%;
+      height: 40px;
+      font-weight: 900;
+    font-size: large;
+}
+#display:hover
+{
+    background-color:lightcoral;
+    color: black;
+}
+.button
+{
+    width: 45px;   
+    height: 40px; 
+    font-weight: 900;
+    font-size: large;
+}
+.button:hover
+{
+    background-color:green;
+    color: black;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    padding-right:5px;
+    gap: 7px;
+    flex-wrap:wrap ;
+}
